@@ -302,8 +302,8 @@
         font-size: 16px;
     }
 
-    .stat {
-        padding: 0;
+    .stats {
+        padding: 10px 15px;
     }
 
     .stat-title {

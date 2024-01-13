@@ -64,7 +64,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="home-statistic">
+            <div className="home-statistic">
                 <div className="statistic-container">
                     <div className="statistic-img">
                         <img src={Statistic} alt="" />
@@ -101,7 +101,7 @@ const Home = () => {
                         <Link to="/about" className='statistic-link'>View More</Link>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }

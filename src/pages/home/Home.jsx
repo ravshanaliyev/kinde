@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom'
 import { MdOutlineSportsSoccer } from 'react-icons/md'
 import Statistic from '../../assets/info.png'
 import { FaChevronCircleRight } from "react-icons/fa";
-
+import Program1 from '../../assets/program1.jpg'
+import Program2 from '../../assets/program2.jpg'
+import Program3 from '../../assets/program3.jpg'
 import './Home.css'
 const Home = () => {
     return (
@@ -99,6 +101,84 @@ const Home = () => {
                             <p>Teachers make a difference of your child.</p>
                         </div>
                         <Link to="/about" className='statistic-link'>View More</Link>
+                    </div>
+                </div>
+            </div>
+            <div className="home-programs">
+                <div className="programs-container">
+                    <div className="programs-info">
+                        <h2 className="programs-title">
+                            Our Programs
+                        </h2>
+                        <p className="programs-parag">
+                            Kindedo opened its doors in 1984 with a unique vision to provide its students
+                            with a globally focused study of arts.
+                        </p>
+                    </div>
+                    <div className="programs-cards">
+                        <div className="programs-card">
+                            <img src={Program1} alt="" />
+                            <h3 className="program-card-title">Settling</h3>
+                            <p className="program-card-desc">
+                                To round out our weekend of celebra tions, we are holding our reunion.
+                            </p>
+                            <div className="program-stats">
+                                <div style={{ paddingTop: '5px' }} className="program-stat">
+                                    <h3 className="program-stat-title">4-5 Yrs</h3>
+                                    <p className="program-stat-desc">age</p>
+                                </div>
+                                <div className="program-stat">
+                                    <h3 className="program-stat-title">5 Days</h3>
+                                    <p className="program-stat-desc">Weekly</p>
+                                </div>
+                                <div className="program-stat">
+                                    <h3 className="program-stat-title">3.30 Hrs</h3>
+                                    <p className="program-stat-desc">period</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="programs-card">
+                            <img src={Program2} alt="" />
+                            <h3 className="program-card-title">Settling</h3>
+                            <p className="program-card-desc">
+                                To round out our weekend of celebra tions, we are holding our reunion.
+                            </p>
+                            <div className="program-stats">
+                                <div style={{ paddingTop: '5px' }} className="program-stat">
+                                    <h3 className="program-stat-title">4-5 Yrs</h3>
+                                    <p className="program-stat-desc">age</p>
+                                </div>
+                                <div className="program-stat">
+                                    <h3 className="program-stat-title">5 Days</h3>
+                                    <p className="program-stat-desc">Weekly</p>
+                                </div>
+                                <div className="program-stat">
+                                    <h3 className="program-stat-title">3.30 Hrs</h3>
+                                    <p className="program-stat-desc">period</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="programs-card">
+                            <img src={Program3} alt="" />
+                            <h3 className="program-card-title">Settling</h3>
+                            <p className="program-card-desc">
+                                To round out our weekend of celebra tions, we are holding our reunion.
+                            </p>
+                            <div className="program-stats">
+                                <div style={{ paddingTop: '5px' }} className="program-stat">
+                                    <h3 className="program-stat-title">4-5 Yrs</h3>
+                                    <p className="program-stat-desc">age</p>
+                                </div>
+                                <div className="program-stat">
+                                    <h3 className="program-stat-title">5 Days</h3>
+                                    <p className="program-stat-desc">Weekly</p>
+                                </div>
+                                <div className="program-stat">
+                                    <h3 className="program-stat-title">3.30 Hrs</h3>
+                                    <p className="program-stat-desc">period</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

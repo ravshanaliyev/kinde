@@ -79,7 +79,8 @@
     font-size: 18px;
 }
 
-.offers-card {
+.offers-card,
+.programs-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -173,13 +174,15 @@
     border-radius: 50px;
 }
 
-.statistic-title {
+.statistic-title,
+.programs-title {
     color: #1b1b1b;
     font-size: 55px;
     margin-bottom: -5px;
 }
 
-.statistic-parag {
+.statistic-parag,
+.programs-parag {
     color: #424242;
     font-size: 18px;
 }
@@ -226,6 +229,68 @@
     color: #424242;
 }
 
+/* Programs */
+
+.home-programs {
+    margin-top: 80px;
+    background-color: #FDF6EC;
+}
+
+.programs-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.programs-info {
+    text-align: center;
+}
+
+.programs-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in;
+}
+
+.programs-card img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.program-card-title {
+    color: #1b1b1b;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.program-card-desc {
+    color: #424242;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.program-stats {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: #00bbae;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.program-stat {
+    display: block;
+
+}
+
+.program-stat-title,
+.program-stat-desc {
+    margin: 5px 0;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
     .header-container {
@@ -248,7 +313,8 @@
         font-size: 45px;
     }
 
-    .offers-card {
+    .offers-card,
+    .programs-cards {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -272,7 +338,9 @@
 }
 
 @media (max-width: 600px) {
-    .offers-card {
+
+    .offers-card,
+    .programs-cards {
         grid-template-columns: repeat(1, 1fr);
         padding: 20px;
     }
@@ -327,5 +395,13 @@
 
     .statistic-link {
         font-size: 16px;
+    }
+
+    .programs-card img {
+        border-radius: 20px;
+    }
+
+    .program-card-title {
+        font-size: 26px;
     }
 }

@@ -2,6 +2,9 @@ import React from 'react'
 import Banner from '../../assets/header.jpg'
 import { Link } from 'react-router-dom'
 import { MdOutlineSportsSoccer } from 'react-icons/md'
+import Statistic from '../../assets/info.png'
+import { FaChevronCircleRight } from "react-icons/fa";
+
 import './Home.css'
 const Home = () => {
     return (
@@ -58,6 +61,44 @@ const Home = () => {
                             </p>
                             <Link to="/about" className='offer-link'>View Details</Link>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="home-statistic">
+                <div className="statistic-container">
+                    <div className="statistic-img">
+                        <img src={Statistic} alt="" />
+                    </div>
+                    <div className="statistic-info">
+                        <h2 className="statistic-title">
+                            Best for Your Kids
+                        </h2>
+                        <p className="statistic-parag">
+                            Being brave isn’t always a grand gesture sometimes it just means having a go attempting that difficult question, offering an answer in a lesson when you’re simply really trying new.
+                        </p>
+                        <div className="stats">
+                            <div className="stat">
+                                <h3 className="stat-title">14+</h3>
+                                <p className="stat-desc">Years of Experience</p>
+                            </div>
+                            <div className="stat">
+                                <h3 className="stat-title">7K+</h3>
+                                <p className="stat-desc">Students each year</p>
+                            </div>
+                            <div className="stat">
+                                <h3 className="stat-title">15+</h3>
+                                <p className="stat-desc">Award Wining</p>
+                            </div>
+                        </div>
+                        <div className="extra-stat">
+                            <FaChevronCircleRight />
+                            <p>We believe every child is intelligent so we care.</p>
+                        </div>
+                        <div style={{ marginBottom: '20px' }} className="extra-stat">
+                            <FaChevronCircleRight />
+                            <p>Teachers make a difference of your child.</p>
+                        </div>
+                        <Link to="/about" className='statistic-link'>View More</Link>
                     </div>
                 </div>
             </div>

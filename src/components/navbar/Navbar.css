@@ -8,7 +8,7 @@ body {
 
 .container {
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
@@ -59,9 +59,9 @@ body {
     justify-content: center;
     color: #fff;
     font-size: 17px;
-    padding: 10px 38px;
+    padding: 12px 38px;
     background-color: #ff9b24;
-    border-radius: 20px;
+    border-radius: 50px;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
 }

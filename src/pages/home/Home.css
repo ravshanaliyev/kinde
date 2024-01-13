@@ -4,13 +4,14 @@
     margin-top: 20px;
 }
 
-.container {
+.header-container {
     max-width: 1400px;
     margin: 0 auto;
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
 }
 
 .header-info-title {
@@ -46,4 +47,26 @@
 
 .header-btn:hover {
     background-color: #00bbae;
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .header-img {
+        margin-top: 0;
+    }
+
+    .header-img img {
+        border-radius: 30px;
+    }
+
+    .header-info-title {
+        font-size: 18px;
+    }
+
+    .header-title {
+        font-size: 45px;
+    }
 }

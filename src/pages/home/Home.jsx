@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className='home'>
             <div className="home-header">
-                <div className="container">
+                <div className="header-container">
                     <div className="header-info">
                         <h3 className="header-info-title">
                             Kindergarten Program

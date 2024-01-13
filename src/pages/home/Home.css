@@ -5,7 +5,7 @@
 }
 
 .header-container {
-    max-width: 1400px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 10px 15px;
     display: flex;
@@ -49,6 +49,110 @@
     background-color: #00bbae;
 }
 
+/* offers  */
+
+
+.home-offers {
+    margin-top: 80px;
+}
+
+.offers-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.home-offers-info {
+    text-align: center;
+}
+
+.home-offers-title {
+    color: #1b1b1b;
+    font-size: 55px;
+    margin-bottom: -5px;
+}
+
+.home-offers-parag {
+    color: #424242;
+    font-size: 18px;
+}
+
+.offers-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.offer-card {
+    padding: 40px 20px;
+    text-align: center;
+    border: 1px dashed #ff9b24;
+    border-radius: 50px;
+    transition: all 0.3s ease-in;
+}
+
+.offer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    color: #ff9b24;
+    background-color: #FFECD6;
+}
+
+.offer-icon svg {
+    font-size: 64px;
+}
+
+.offer-card-title {
+    color: #1b1b1b;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.offer-card-desc {
+    color: #424242;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.offer-link {
+    color: #1b1b1b;
+    font-size: 18px;
+    padding: 15px 38px;
+    border: 1px solid #ff9b24;
+    background-color: transparent;
+    border-radius: 50px;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+}
+
+.offer-card:hover {
+    background-color: #00bbae;
+    border-color: #00bbae;
+}
+
+.offer-card:hover .offer-link {
+    border-color: #fff;
+    color: #fff;
+}
+
+.offer-card:hover .offer-icon {
+    color: #fff;
+    background-color: #ff9b24;
+}
+
+.offer-card:hover .offer-card-title {
+    color: #fff;
+}
+
+.offer-card:hover .offer-card-desc {
+    color: #fff;
+}
+
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column;
@@ -68,5 +172,41 @@
 
     .header-title {
         font-size: 45px;
+    }
+
+    .offers-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .home-offers-title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .offers-card {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+
+    .offer-icon {
+        height: 90px;
+        width: 90px;
+    }
+
+    .offer-icon svg {
+        font-size: 50px;
+    }
+
+    .offer-card-title {
+        font-size: 26px;
+    }
+
+    .offer-card-desc {
+        font-size: 16px;
+    }
+
+    .offer-link {
+        font-size: 16px;
     }
 }

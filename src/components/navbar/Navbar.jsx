@@ -45,7 +45,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <div className="nav-icons">
-                            <div>
+                            <div className="nav-icon">
                                 <NavLink to={"/account"} className='nav-icon-link '><IoPersonOutline size={23} /></NavLink>
                                 <NavLink to={"/wishlist"} className='nav-icon-link '><IoMdHeartEmpty size={23} /></NavLink>
                                 <NavLink to={"/cart"} className='nav-icon-link '><BsCart size={23} /></NavLink>

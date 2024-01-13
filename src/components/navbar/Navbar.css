@@ -27,7 +27,8 @@ body {
     display: none;
 }
 
-.nav-icons {
+.nav-icons,
+.nav-icon {
     display: flex;
     align-items: center;
     gap: 10px;

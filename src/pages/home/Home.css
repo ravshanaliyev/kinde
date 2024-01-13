@@ -303,11 +303,26 @@
     }
 
     .stats {
-        padding: 10px 15px;
+        padding: 10px 5px;
+        flex-direction: column;
+    }
+
+    .stat {
+        width: 80%;
+        margin: 0 auto;
+        border-bottom: 1px solid #0cffef;
+    }
+
+    .stat:last-child {
+        border-bottom: none;
     }
 
     .stat-title {
-        font-size: 24px;
+        font-size: 28px;
+    }
+
+    .stat-desc {
+        font-size: 14px;
     }
 
     .statistic-link {

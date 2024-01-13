@@ -105,6 +105,10 @@ body {
         cursor: pointer;
     }
 
+    .nav-icons {
+        flex-direction: column;
+    }
+
     .nav-elements {
         position: absolute;
         right: 0;

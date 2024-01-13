@@ -45,10 +45,14 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <div className="nav-icons">
-                            <NavLink to={"/account"} className='nav-icon-link '><IoPersonOutline size={23} /></NavLink>
-                            <NavLink to={"/wishlist"} className='nav-icon-link '><IoMdHeartEmpty size={23} /></NavLink>
-                            <NavLink to={"/cart"} className='nav-icon-link '><BsCart size={23} /></NavLink>
-                            <NavLink to={"/login"} className={'nav-icon-btn '}>Get In Touch</NavLink>
+                            <div>
+                                <NavLink to={"/account"} className='nav-icon-link '><IoPersonOutline size={23} /></NavLink>
+                                <NavLink to={"/wishlist"} className='nav-icon-link '><IoMdHeartEmpty size={23} /></NavLink>
+                                <NavLink to={"/cart"} className='nav-icon-link '><BsCart size={23} /></NavLink>
+                            </div>
+                            <div>
+                                <NavLink to={"/login"} className={'nav-icon-btn '}>Get In Touch</NavLink>
+                            </div>
                         </div>
                     </div>
                 </div>

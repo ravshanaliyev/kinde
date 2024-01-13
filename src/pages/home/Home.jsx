@@ -77,7 +77,7 @@ const Home = () => {
                             Being brave isn’t always a grand gesture sometimes it just means having a go attempting that difficult question, offering an answer in a lesson when you’re simply really trying new.
                         </p>
                         <div className="stats">
-                            <div className="stat">
+                            <div style={{ paddingTop: '5px' }} className="stat">
                                 <h3 className="stat-title">14+</h3>
                                 <p className="stat-desc">Years of Experience</p>
                             </div>

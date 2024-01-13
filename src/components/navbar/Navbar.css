@@ -112,10 +112,10 @@ body {
     .nav-elements {
         position: absolute;
         right: 0;
-        top: 60px;
+        top: 80px;
         background-color: #fef7e5;
         width: 0px;
-        height: calc(100vh - 60px);
+        height: calc(100vh - 80px);
         transition: all 0.3s ease-in;
         overflow: hidden;
     }

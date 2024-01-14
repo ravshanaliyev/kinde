@@ -372,6 +372,16 @@
     color: #ff9b24;
 }
 
+/* Footer */
+.footer {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
@@ -524,5 +534,11 @@
 
     .form-btn {
         font-size: 16px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 0px;
+        margin-bottom: 5px;
     }
 }

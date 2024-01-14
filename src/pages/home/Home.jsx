@@ -11,6 +11,7 @@ import Program1 from '../../assets/program1.jpg'
 import Program2 from '../../assets/program2.jpg'
 import Program3 from '../../assets/program3.jpg'
 import AccordionImg from '../../assets/2.jpg'
+import Logo from '../../assets/logo.svg'
 import Banner from '../../assets/header.jpg'
 
 import './Home.css'
@@ -248,6 +249,10 @@ const Home = () => {
                         about the world around us or a challenge.</p>
                     <Link to="/shop" className="form-btn">Apply Now</Link>
                 </div>
+            </div>
+            <div className="footer">
+                <img src={Logo} alt="" />
+                <p>© 2024 Kindedo. All rights reserved</p>
             </div>
         </div>
     )

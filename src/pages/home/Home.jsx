@@ -4,19 +4,23 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Link } from 'react-router-dom'
+import { FaQuoteRight } from "react-icons/fa";
 import { MdOutlineSportsSoccer } from 'react-icons/md'
 import Statistic from '../../assets/info.png'
+import { FaStar } from "react-icons/fa";
 import { FaChevronCircleRight } from "react-icons/fa";
 import Program1 from '../../assets/program1.jpg'
 import Program2 from '../../assets/program2.jpg'
 import Program3 from '../../assets/program3.jpg'
 import AccordionImg from '../../assets/2.jpg'
+import Account1 from '../../assets/1.png'
 import Logo from '../../assets/logo.svg'
 import Banner from '../../assets/header.jpg'
 import Teacher1 from '../../assets/t1.jpg'
 import Teacher2 from '../../assets/t2.jpg'
 import Teacher3 from '../../assets/t3.jpg'
 import Teacher4 from '../../assets/t4.jpg'
+import QuotesImg from '../../assets/testimonail-bg.png'
 import './Home.css'
 
 
@@ -289,6 +293,32 @@ const Home = () => {
                                 <h3 className="teacher-card-title">Steve Smith</h3>
                                 <p className="teacher-card-desc">Teacher</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="home-quotes">
+                <div className="quotes-container">
+                    <div className="quotes-img">
+                        <img src={QuotesImg} alt="" />
+                    </div>
+                    <div className="quotes-info">
+                        <h2 className="quotes-title">Parents Says</h2>
+                        <div className="stars">
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                        </div>
+                        <p className="quotes-desc">Happy Christmas to the whole Kindedo from everyone at Monkton. A big thank you to
+                            Kindedo pupil Will who lent his Kindedo to this card. </p>
+                        <div className="accounts">
+                            <div className="account">
+                                <img src={Account1} alt="" />
+                                <span>Norma J.Karlson</span>
+                            </div>
+                            <FaQuoteRight />
                         </div>
                     </div>
                 </div>

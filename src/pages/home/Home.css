@@ -697,11 +697,12 @@
     }
 
     .newsletter-form input {
-        padding: 10px 0px 10px 0px;
+        font-size: 14px;
+        padding: 10px 0px 10px 3px;
     }
 
     .newsletter-form button {
-        padding: 15px 30px;
+        padding: 10px 20px;
         font-size: 14px;
     }
 }

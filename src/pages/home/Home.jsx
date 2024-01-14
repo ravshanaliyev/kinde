@@ -13,7 +13,10 @@ import Program3 from '../../assets/program3.jpg'
 import AccordionImg from '../../assets/2.jpg'
 import Logo from '../../assets/logo.svg'
 import Banner from '../../assets/header.jpg'
-
+import Teacher1 from '../../assets/t1.jpg'
+import Teacher2 from '../../assets/t2.jpg'
+import Teacher3 from '../../assets/t3.jpg'
+import Teacher4 from '../../assets/t4.jpg'
 import './Home.css'
 
 
@@ -248,6 +251,46 @@ const Home = () => {
                     <p className="form-desc">Kindedo believes that good questions drive good answers. Whether it's a query
                         about the world around us or a challenge.</p>
                     <Link to="/shop" className="form-btn">Apply Now</Link>
+                </div>
+            </div>
+            <div className="home-teachers">
+                <div className="teachers-container">
+                    <div className="teachers-info">
+                        <h2 className="teachers-title">Our Best Teachers
+                        </h2>
+                        <p className="teachers-desc">With the help of teachers and the environment as the third teacher, students
+                            have opportunities to confidently take risks.</p>
+                    </div>
+                    <div className="teacher-cards">
+                        <div className="teacher-card">
+                            <img src={Teacher1} alt="" className='teacher-img' />
+                            <div className="teacher-card-info">
+                                <h3 className="teacher-card-title">John Doe</h3>
+                                <p className="teacher-card-desc">Teacher</p>
+                            </div>
+                        </div>
+                        <div className="teacher-card">
+                            <img src={Teacher2} alt="" className='teacher-img' />
+                            <div className="teacher-card-info">
+                                <h3 className="teacher-card-title">Jane Doe</h3>
+                                <p className="teacher-card-desc">Teacher</p>
+                            </div>
+                        </div>
+                        <div className="teacher-card">
+                            <img src={Teacher3} alt="" className='teacher-img' />
+                            <div className="teacher-card-info">
+                                <h3 className="teacher-card-title">Steve Smith</h3>
+                                <p className="teacher-card-desc">Teacher</p>
+                            </div>
+                        </div>
+                        <div className="teacher-card">
+                            <img src={Teacher4} alt="" className='teacher-img' />
+                            <div className="teacher-card-info">
+                                <h3 className="teacher-card-title">Steve Smith</h3>
+                                <p className="teacher-card-desc">Teacher</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="footer">

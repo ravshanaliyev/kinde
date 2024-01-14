@@ -1,5 +1,8 @@
 import React from 'react'
-import Banner from '../../assets/header.jpg'
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Link } from 'react-router-dom'
 import { MdOutlineSportsSoccer } from 'react-icons/md'
 import Statistic from '../../assets/info.png'
@@ -7,7 +10,12 @@ import { FaChevronCircleRight } from "react-icons/fa";
 import Program1 from '../../assets/program1.jpg'
 import Program2 from '../../assets/program2.jpg'
 import Program3 from '../../assets/program3.jpg'
+import AccordionImg from '../../assets/2.jpg'
+import Banner from '../../assets/header.jpg'
+
 import './Home.css'
+
+
 const Home = () => {
     return (
         <div className='home'>
@@ -179,6 +187,57 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="home-accordion">
+                <div className="accordion-container">
+                    <div className="accordion-info">
+                        <h2 className="accordion-title">
+                            Know More
+                            About Kindedo
+                        </h2>
+                        <div className="accordion">
+                            <Accordion>
+                                <AccordionSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls="panel1-content"
+                                    id="panel1-header"
+                                >
+                                    What is the best age to start Kindergarten?
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    Some states and countries implement mandatory early childhood education. With such rules, many preschool and kindergarten learning centers are built.
+                                </AccordionDetails>
+                            </Accordion>
+                            <Accordion>
+                                <AccordionSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls="panel2-content"
+                                    id="panel2-header"
+                                >
+                                    Which is the best preschool for your child ?
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    Right after you book your party, you’ll receive an email confirming the date, time, and details about what’s included in the package you’ve selected result.
+                                </AccordionDetails>
+                            </Accordion>
+                            <Accordion >
+                                <AccordionSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls="panel3-content"
+                                    id="panel3-header"
+                                >
+                                    What is the toution fee on first year?
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    There will also be some fantastic outdoor entertainment, desserts and drinks, plus tours of the School for those who want to continue the celebrations.
+                                </AccordionDetails>
+                            </Accordion>
+                        </div>
+                    </div>
+                    <div className="accordion-img">
+                        <img src={AccordionImg} alt="" />
                     </div>
                 </div>
             </div>

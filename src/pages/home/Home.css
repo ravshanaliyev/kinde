@@ -43,7 +43,6 @@
     border-radius: 50px;
     transition: all 0.3s ease-in;
     text-decoration: none;
-
 }
 
 .header-btn:hover,
@@ -291,6 +290,37 @@
     margin: 5px 0;
 }
 
+
+/* Accordion */
+.accordion-container {
+    max-width: 1320px;
+    margin: 50px auto;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.accordion-title {
+    color: #1b1b1b;
+    font-size: 60px;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+
+.accordion-img img {
+    width: 100%;
+    border-radius: 30px;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
     .header-container {
@@ -406,6 +436,15 @@
     }
 
     .programs-title {
+        font-size: 40px;
+    }
+
+    .accordion-container {
+        flex-direction: column;
+        margin: 0px auto 20px auto;
+    }
+
+    .accordion-title {
         font-size: 40px;
     }
 

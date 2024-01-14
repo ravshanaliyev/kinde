@@ -328,7 +328,7 @@ const Home = () => {
                     <h2 className="newsletter-title">Join Our Newsletter</h2>
                     <p className="newsletter-desc">Subscribe our newsletter to get our latest update & news.</p>
                     <div className="newsletter-form">
-                        <input type="email" placeholder='Enter Your Email Address' />
+                        <input type="email" placeholder='Enter Your Email' />
                         <button>Subscribe</button>
                     </div>
                 </div>

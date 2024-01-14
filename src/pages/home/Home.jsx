@@ -323,6 +323,16 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="home-newsletter">
+                <div className="newsletter-container">
+                    <h2 className="newsletter-title">Join Our Newsletter</h2>
+                    <p className="newsletter-desc">Subscribe our newsletter to get our latest update & news.</p>
+                    <div className="newsletter-form">
+                        <input type="email" placeholder='Enter Your Email Address' />
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
             <div className="footer">
                 <img src={Logo} alt="" />
                 <p>© 2024 Kindedo. All rights reserved</p>

@@ -241,6 +241,14 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="home-form">
+                <div className="form-container">
+                    <h2 className="form-title">Join Our New Session</h2>
+                    <p className="form-desc">Kindedo believes that good questions drive good answers. Whether it's a query
+                        about the world around us or a challenge.</p>
+                    <Link to="/shop" className="form-btn">Apply Now</Link>
+                </div>
+            </div>
         </div>
     )
 }

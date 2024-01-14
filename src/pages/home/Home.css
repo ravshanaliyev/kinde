@@ -541,7 +541,7 @@
     align-items: center;
     gap: 20px;
     background-color: #fff;
-    padding: 5px 5px;
+    padding: 5px;
     border-radius: 30px;
 }
 
@@ -673,6 +673,36 @@
         flex-direction: column;
         gap: 20px;
         padding: 20px;
+    }
+
+    .home-newsletter {
+        padding: 20px;
+        margin-top: -50px;
+    }
+
+    .newsletter-container {
+        padding: 20px;
+    }
+
+    .newsletter-title {
+        font-size: 35px;
+    }
+
+    .newsletter-desc {
+        font-size: 18px;
+    }
+
+    .newsletter-form {
+        padding: 0 5px;
+    }
+
+    .newsletter-form input {
+        padding: 20px 30px 20px 10px;
+    }
+
+    .newsletter-form button {
+        padding: 15px 30px;
+        font-size: 14px;
     }
 }
 

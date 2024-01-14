@@ -448,4 +448,8 @@
         font-size: 40px;
     }
 
+    .accordion {
+        width: 100%;
+    }
+
 }
